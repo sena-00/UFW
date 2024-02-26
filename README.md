@@ -14,3 +14,7 @@ For Arch:
 ~~~
 sudo pacman -S ufw
 ~~~
+After the installation is completed, lets check the status of UFW. As the stardand, UFW will always be disabled after the initial installation. You can check this with:
+~~~
+ufw status
+~~~

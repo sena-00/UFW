@@ -1,15 +1,15 @@
 # UFW Install and Configuration - Arch Linux
-This is an orientation guide on how to make your Linux more secure with UFW.
+This is an orientation guide on how to make your Linux more secure with UFW (Uncomplicated Firewall).
 
 ## Installation
 
 First, open your terminal and install the package. 
 
-For Ubuntu
+For Ubuntu:
 ~~~
 sudo apt-get install ufw
 ~~~
-For Arch  
+For Arch:  
 
 ~~~
 sudo pacman -S ufw

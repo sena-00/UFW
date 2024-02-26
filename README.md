@@ -18,5 +18,8 @@ After the installation is completed, lets check the status of UFW. As the starda
 ~~~
 ufw status
 ~~~
+
+## Usage
+
 To open a port you can use the command `sudo ufw allow [port/protocol]` or `sudo ufw deny [port/protocol]`. This should be configured manually to fit your own needs.
 

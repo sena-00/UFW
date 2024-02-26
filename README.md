@@ -37,3 +37,4 @@ sudo ufw default deny incoming
 sudo ufw default allow outgoing
 sudo ufw enable
 ~~~
+You can also increase the security of the operating system with Fail2Ban, which generally works as a anti brute-force.

@@ -22,4 +22,9 @@ ufw status
 ## Usage
 
 To open a port you can use the command `sudo ufw allow [port/protocol]` or `sudo ufw deny [port/protocol]`. This should be configured manually to fit your own needs.
+You can configure a range of ports aswell with:  
+
+~~~
+sudo ufw allow/deny [Start:End]/protocol (Eg. sudo ufw allow 300:320/tcp)
+~~~
 

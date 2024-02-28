@@ -37,4 +37,5 @@ sudo ufw default deny incoming
 sudo ufw default allow outgoing
 sudo ufw enable
 ~~~
+These steps will take at a maximum 5 minutes, and will greatly decrease the chances of you becoming a target.
 You can also increase the security of the operating system with Fail2Ban, which generally works as a anti brute-force.
